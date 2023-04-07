@@ -1,12 +1,12 @@
 package main
 
 import (
-	"fmt"
-
   "main/factory"
 )
 
 func main() {
-	fmt.Println("Hello, World!")
-  factory.Invoke()
+  // 工厂模式
+  factory.InvokeFactory()
+  // 抽象工厂模式
+  factory.InvokeAbstructFactory()
 }
